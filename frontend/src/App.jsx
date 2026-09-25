@@ -22,7 +22,7 @@ import ForgotPassword from "./pages/auth/forgot_password";
 import ProfilePage from "./pages/ProfilePage";
 import MemberProfile from "./pages/Profile/MemberProfile";
 import StudentProfile from "./pages/Profile/StudentProfile";
-import TeamSection from "./components/layout/TeamSection";
+import TeamPage from "./pages/TeamPage";
 import { AuthProvider } from "./context/AuthContext";
 import AdminProfile from "./pages/admin/AdminProfile";
 import NewsletterSection from "./components/layout/NewsletterSection";
@@ -147,7 +147,7 @@ export default function App() {
                   <Navbar />
                 </div>
 
-                <TeamSection />
+                <TeamPage />
               </div>
             }
           />
